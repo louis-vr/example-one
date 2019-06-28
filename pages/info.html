@@ -21,10 +21,10 @@
 		<meta name="msapplication-TileColor" content="#ffffff">
 		<meta name="msapplication-TileImage" content="/content/favicon/ms-icon-144x144.png">
 		<meta name="theme-color" content="#ffffff">
-		<script type="text/javascript" src="script.js"></script>
+		<script type="text/javascript" src="/javascript/script.js"></script>
 		<title>More Info | Prime Ministers</title>
 	</head>
-	<body>
+	<body onload="startClock()">
     <div id="header">
 			<img src="/content/logo.png" alt="logo" style="width: 150px; display: block; position:relative; left: 50%; margin-left: -75px;">
 			<h1 id="title">Prime Ministers of Australia</h1>
@@ -33,52 +33,45 @@
 			<a href="/" class="navitem"><li class="navitem">Home</li></a>
 			<a href="#" class="navitem active"><li class="navitem">More Info</li></a>
 			<a href="/pages/booking.html" class="navitem"><li class="navitem">Booking</li></a>
+			<li class="clock" id="clock" style="float: right;">--Clock--</li>
 		</ul>
 		<div id="content" class="container">
 			<h1 class="heading">More Information </h1>
-      <p class="additional-info">Click any names from the list below to find out more!</p>
-      <table class="infolist">
-        <tr>
-          <td>
-            <a href="/pages/people/john.html" class="item">
-              <img src="/content/johnny.jpeg" alt="John Howard" class="listface">
-              <p class="item">John Howard</p>
-            </a>
-          </td>
-          <td>
-            <a href="/pages/people/kev.html" class="item">
-              <img src="/content/kev.jpeg" alt="Kevin Rudd" class="listface">
-              <p class="item">Kevin Rudd</p>
-            </a>
-          </td>
-          <td>
-            <a href="/pages/people/julia.html" class="item">
-              <img src="/content/julia.jpg" alt="Julia Gillard" class="listface">
-              <p class="item">Julia Gillard</p>
-            </a>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            <a href="/pages/people/tony.html" class="item">
-              <img src="/content/tony.jpg" alt="Tony Abbott" class="listface">
-              <p class="item">Tony Abbott</p>
-            </a>
-          </td>
-          <td>
-            <a href="/pages/people/malcolm.html" class="item">
-              <img src="/content/malc.jpeg" alt="Malcolm Turnbull" class="listface">
-              <p class="item">Malcolm Turnbull</p>
-            </a>
-          </td>
-          <td>
-            <a href="/pages/people/scomo.html" class="item">
-              <img src="/content/scomo.jpg" alt="Scott Morrison" class="listface">
-              <p class="item">Scott Morrison</p>
-            </a>
-          </td>
-        </tr>
-      </table>
+			<p class="additional-info">Click any names from the list below to find out more!</p>
+			<div id="info-list">
+				<ul>
+					<li>
+						<a href="/pages/people/john.html">
+							<p>John Howard</p>
+						</a>
+					</li>
+					<li>
+						<a href="/pages/people/kev.html">
+							<p>Kevin Rudd</p>
+						</a>
+					</li>
+					<li>
+						<a href="/pages/people/julia.html">
+							<p>Julia Gillard</p>
+						</a>
+					</li>
+					<li>
+						<a href="/pages/people/tony.html">
+							<p>Tony Abbott</p>
+						</a>
+					</li>
+					<li>
+						<a href="/pages/people/malcolm.html">
+							<p>Malcolm Turnbull</p>
+						</a>
+					</li>
+					<li>
+						<a href="/pages/people/scomo.html" alt="scomo">
+							<p>Scott Morrison</p>
+						</a>
+					</li>
+				</ul>
+			</div>
 		</div>
     <div id="footer" class="container">
 			<p class="foot-text">Copyright &#169; 2019 - Louis van Rooyen. All rights reserved.</p>
