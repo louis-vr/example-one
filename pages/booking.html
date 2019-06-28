@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/css/master.css">
+		<link rel="apple-touch-icon" sizes="57x57" href="/content/favicon/apple-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="/content/favicon/apple-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="/content/favicon/apple-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="/content/favicon/apple-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="/content/favicon/apple-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="/content/favicon/apple-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="/content/favicon/apple-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="/content/favicon/apple-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="/content/favicon/apple-icon-180x180.png">
+		<link rel="icon" type="image/png" sizes="192x192"  href="/content/favicon/android-icon-192x192.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/content/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="96x96" href="/content/favicon/favicon-96x96.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/content/favicon/favicon-16x16.png">
+		<link rel="manifest" href="/content/favicon/manifest.json">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="/content/favicon/ms-icon-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+		<script type="text/javascript" src="script.js"></script>
+		<title>Booking | Dinner Dance</title>
+	</head>
+	<body>
+		<div id="header">
+			<img src="/content/logo.png" alt="logo" style="width: 150px; display: block; position:relative; left: 50%; margin-left: -75px;">
+			<h1 id="title">Prime Ministers of Australia</h1>
+		</div>
+		<ul class="nav">
+			<a href="/" class="navitem active"><li class="navitem">Home</li></a>
+			<a href="/pages/info.html" class="navitem"><li class="navitem">More Info</li></a>
+			<a href="#" class="navitem"><li class="navitem">Booking</li></a>
+		</ul>
+		<div id="content" class="container">
+			<h1 class="heading">Booking for Year 10 Dinner Dance</h1>
+			<p style="color: gray; margin: 0; margin-left: 10px;">Please ensure all information is accurate.</p>
+      <form class="booking-form" target="_self">
+        <fieldset name="personal">
+          <legend>Personal Information</legend>
+          First Name: <br>
+          <input type="text" name="firstname" required><br>
+          Last Name: <br>
+          <input type="text" name="lastname" required><br>
+          Phone Number: <br>
+          <input type="number" name="phone" required><br>
+          Email Address:<br>
+          <input type="email" name="email"><br>
+        </fieldset>
+        <fieldset>
+          <legend>Other Info</legend>
+          <label for="gender" required>Gender</label><br>
+          <input type="radio" name="gender" value="male"> Male <br>
+          <input type="radio" name="gender" value="female"> Female <br>
+          <input type="radio" name="gender" value="other" onclick=""> Other
+          <input id="other" type="text" name="other" value=""><br><br>
+
+          <label for="diet">Dietary Requirements</label><br>
+          <input type="radio" name="diet" value="none"> None <br>
+          <input type="radio" name="diet" value="vegetarian"> Vegetarian <br>
+          <input type="radio" name="diet" value="vegan"> Vegan <br>
+          <input type="radio" name="diet" value="other"> Other
+          <input type="text" name="other" value=""> <br><br>
+
+          How many people will you be bringing along? <br>
+          <select name="people">
+            <option value="0">None</option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+          </select>
+        </fieldset><br>
+        <input type="submit" value="Submit">
+
+      </form>
+		</div>
+		<div id="footer" class="container">
+			<p class="foot-text">Copyright &#169; 2019 - Louis van Rooyen. All rights reserved.</p>
+			<p class="foot-text" style="position:relative; float: right; margin-top: 0;">All images belong to their respective owners.</p>
+		</div>
+	</body>
+</html>
