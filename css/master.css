@@ -1,0 +1,174 @@
+body {
+  background: #DDDDDD url("/content/background.jpg") no-repeat fixed;
+  background-size: 100%;
+}
+
+.container {
+  background-color: #DDDDDD;
+  padding: 10px;
+}
+
+.portrait {
+  margin-left: 50px;
+  width: 50%
+}
+
+.right {
+  float: right;
+}
+
+.name {
+  margin-left: 20px;
+}
+
+.info {
+  margin-left: 30px;
+}
+
+.nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #CCCCCC;
+  font-family: arial;
+  box-shadow:  0 4px 8px 0 rgba(0 ,0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.logo {
+  width: 150px;
+  display: block;
+  position:relative;
+  left: 50%;
+  margin-left: -75px;
+
+ box-shadow:  0 4px 8px 0 rgba(0 ,0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0);
+}
+
+img  {
+  box-shadow:  0 4px 8px 0 rgba(0 ,0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navitem {
+  float: left;
+  text-align: center;
+}
+
+.heading {
+  margin-left: 10px;
+}
+
+.additional-info {
+  margin-top: -15px;
+  margin-left: 10px;
+  color: gray;
+}
+
+.clock {
+  border-left: solid 1px black;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  border-right: 1px solid #898989;
+  text-decoration: none;
+}
+
+a.navitem  {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  border-right: 1px solid #898989;
+  text-decoration: none;
+}
+
+a.navitem:hover {
+  background-color: #999999;
+}
+
+.active {
+  background-color: #888888;
+
+}
+
+#title {
+  display: block;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  text-decoration: none;
+}
+
+#content {
+  margin: 10%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  box-shadow:  0 4px 8px 0 rgba(0 ,0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.item {
+  text-decoration: none;
+  display: grid;
+  padding: 10px;
+}
+
+p.item {
+  color: black;
+  font-family: verdana;
+  font-weight: bold;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.list-face {
+  max-width: 400px;
+  width: auto;
+}
+
+.item:hover {
+  background-color: gray;
+}
+
+#footer {
+  padding: 20px;
+}
+
+.foot-text {
+  display: inline;
+  margin-left: 10px;
+}
+
+.infolist {
+  width: 80%;
+  overflow: scroll;
+}
+
+.info-item {
+  width: 20%;
+}
+
+#info-list li {
+  list-style-type: circle;
+}
+
+#info-list li a {
+  color: black;
+  text-decoration: none;
+}
+
+#info-list li a :hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+#footer {
+  box-shadow:  0 4px 8px 0 rgba(0 ,0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
